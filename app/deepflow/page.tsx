@@ -51,7 +51,7 @@ export default function DeepFlowPage() {
       </ul>
 
       <h2 className="text-2xl font-semibold mb-4">Pricing</h2>
-      <p className="text-lg mb-6">€33/month • 7 days free</p>
+      <p className="text-lg mb-6">€33/month</p>
 
       <SubscribeButton
         href="https://ghost.radicalsensitiveleadership.com/#/portal/signup/68138eefb12a490008c707a3/monthly"

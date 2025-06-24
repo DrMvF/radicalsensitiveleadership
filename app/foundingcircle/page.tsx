@@ -46,7 +46,7 @@ export default function FoundingCirclePage() {
 
       <h2 className="text-2xl font-semibold mb-4">Pricing</h2>
       <p className="text-lg mb-6">
-        €222/month • 14 days free
+        €222/month
       </p>
 
       <SubscribeButton

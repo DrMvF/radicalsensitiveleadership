@@ -50,7 +50,7 @@ export default function RadicalWeeklyPage() {
 
       <h2 className="text-2xl font-semibold mb-4">Pricing</h2>
       <p className="text-lg mb-6">
-        €55/month • 14 days free
+        €55/month
       </p>
 
       <SubscribeButton
