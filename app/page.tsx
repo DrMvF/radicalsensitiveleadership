@@ -6,22 +6,23 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-between p-8 sm:p-20 font-cm">
       <main className="flex flex-col items-center text-center">
+        <p className="text-base sm:text-lg text-gray-600 mb-2">
+          Dr. Miriam von Felbert
+        </p>
+        <p className="text-base sm:text-lg text-gray-600 mb-6">
+          Healthcare Executive. Leadership Psychologist. Lecturer.
+        </p>
+
         <h1 className="text-3xl sm:text-4xl font-bold mb-2">
           Radical Sensitive Leadership
         </h1>
-        <p className="text-lg sm:text-xl">Intuition. Intelligence. Integrity.</p>
+        <p className="text-lg sm:text-xl">
+          Mental clarity. Inner alignment. Ethical growth.
+        </p>
 
         <div className="h-12 sm:h-16" />
 
-        <p className="text-base sm:text-lg text-gray-600">
-          Dr. Miriam von Felbert
-        </p>
-        <p className="text-base sm:text-lg text-gray-600 mb-12">
-          Deepfluencer. Positive Psychologist. Ikigai Strategist.
-        </p>
-
         <div className="flex flex-col gap-4 w-full max-w-xs">
-          {/* Deep Flow Button – Black */}
           <a
             href="/deepflow"
             onClick={() => track('click_deep_flow')}
@@ -30,7 +31,6 @@ export default function Home() {
             Deep Flow
           </a>
 
-          {/* Radical Weekly Button – Dark Gray */}
           <a
             href="/radicalweekly"
             onClick={() => track('click_radical_weekly')}
@@ -39,7 +39,6 @@ export default function Home() {
             Radical Weekly
           </a>
 
-          {/* Founding Circle Button – Light Gray */}
           <a
             href="/foundingcircle"
             onClick={() => track('click_founding_circle')}
@@ -48,7 +47,6 @@ export default function Home() {
             Founding Circle
           </a>
 
-          {/* White Space Button – White border */}
           <a
             href="/offer"
             onClick={() => track('click_white_space')}
@@ -64,36 +62,12 @@ export default function Home() {
         <a href="/privacy" className="hover:underline">● Privacy Policy</a>
         <a href="/terms" className="hover:underline">● Terms & Conditions</a>
         <a
-          href="https://www.youtube.com/@DrMiriamvonFelbert"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          ● YouTube
-        </a>
-        <a
           href="https://www.linkedin.com/in/miriamvonfelbert/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline"
         >
           ● LinkedIn
-        </a>
-        <a
-          href="https://www.instagram.com/drmiriamvonfelbert"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          ● Instagram
-        </a>
-        <a
-          href="https://x.com/DrMvonFelbert"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          ● X
         </a>
       </footer>
     </div>
