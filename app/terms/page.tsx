@@ -9,7 +9,7 @@ export default function TermsPage() {
 
       <h2 className="text-2xl font-semibold mt-10 mb-4">1. Booking and Payment</h2>
       <p>
-        All bookings are binding. Payments are processed via Stripe and must be completed prior to the session. Coaching appointments are confirmed upon receipt of full payment.
+        All bookings are binding once confirmed in writing. Payment is generally required prior to the session and is processed via invoice or Stripe, depending on the arrangement. Sessions are confirmed after receipt of payment or written agreement.
       </p>
 
       <h2 className="text-2xl font-semibold mt-10 mb-4">2. No Cancellation Policy</h2>
@@ -40,7 +40,8 @@ export default function TermsPage() {
       <p className="mt-12 text-sm text-gray-500">
         Last updated: {new Date().toLocaleDateString("en-GB")}
       </p>
-       <div className="mt-16">
+
+      <div className="mt-16">
         <a href="/" className="text-sm underline hover:opacity-60">
           ← Back to Home
         </a>
