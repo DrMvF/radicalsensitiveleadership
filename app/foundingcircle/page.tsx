@@ -41,7 +41,7 @@ export default function FoundingCirclePage() {
       <ul className="list-disc ml-6 text-base mb-8">
         <li>Access to all content (Daily + Weekly + Archives)</li>
         <li>Early Beta access to the Ikigai Strategist platform</li>
-        <li>50% discount on 1:1 White Space Coaching with Miriam (1 session/month)</li>
+        <li>Invitation to 1:1 coaching with special Founding Circle conditions</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mb-4">Pricing</h2>
