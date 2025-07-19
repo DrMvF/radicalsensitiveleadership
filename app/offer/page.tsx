@@ -3,11 +3,11 @@ import SubscribeButton from '@/components/SubscribeButton';
 export const metadata = {
   title: 'Offer White Space – Radical Sensitive Leadership',
   description:
-    'Executive Coaching with presence, depth and strategic clarity. For leaders in Pharma, Biotech and MedTech who seek resonance instead of routine.',
+    'Executive Coaching with depth and presence. For those navigating transitions who seek clarity and resonance beyond the system.',
   openGraph: {
     title: 'Offer White Space',
     description:
-      'Not a product – a perceptive field. Executive Coaching for deep leaders in transition.',
+      'Not a product – a perceptive field. Executive Coaching for deep leaders ready for inner clarity.',
     url: 'https://www.radicalsensitiveleadership.com/offer',
     siteName: 'Radical Sensitive Leadership',
     type: 'website',
@@ -16,7 +16,7 @@ export const metadata = {
     card: 'summary',
     title: 'Offer White Space',
     description:
-      'Strategic coaching beyond mainstream management. This is your White Space.',
+      'Strategic coaching for inner leadership. This is your White Space.',
   },
 };
 
@@ -26,13 +26,13 @@ export default function OfferPage() {
       <h1 className="text-3xl sm:text-4xl mb-8">Offer White Space</h1>
 
       <p className="text-lg leading-relaxed mb-6">
-        Radical Sensitive Leadership is not a product. It’s a space.  
-        A field of perception for those who don’t want to be led – but are ready to embody responsibility.
+        Radical Sensitive Leadership is not a product. It’s a space.
+        A field of perception for those who lead from within.
       </p>
 
       <p className="text-lg leading-relaxed mb-6">
-        I work 1:1, in retreats, at the edges.  
-        Not for everyone. Not forever. But when I do, it’s with full presence and radical softness.
+        I work 1:1, in reflective formats and with minimal interference. 
+        Not for everyone. Not forever. But when I do, it’s with full presence and radical clarity.
       </p>
 
       <p className="text-lg leading-relaxed mb-6">
@@ -45,15 +45,14 @@ export default function OfferPage() {
       <h2 className="text-2xl font-semibold mb-4">What I offer</h2>
 
       <p className="text-lg leading-relaxed mb-8">
-        Executive Coaching for Pharma, Biotech and MedTech.  
-        For leaders navigating transitions, product launches or personal shifts.  
-        I work with people who ask: “What is all this for? And where am I going?”
+        Psychologically grounded coaching and reflection for those in transitions – personal, professional, or both. 
+        The work focuses on self-leadership, mental clarity and strategic alignment.
       </p>
 
       <div className="space-y-10">
         <div>
           <h3 className="text-xl font-semibold mb-2">
-            Executive Clarity Session – 90 Min – €590 <span className="text-base font-normal">plus VAT</span>
+            Executive Clarity Session – 90 Min
           </h3>
           <ul className="list-disc ml-6 text-base mb-2">
             <li>One deep 1:1 session</li>
@@ -61,43 +60,26 @@ export default function OfferPage() {
             <li>Optional written summary</li>
           </ul>
           <SubscribeButton
-            href="https://cal.com/radicalsensitiveleadership/clarity-session"
-            label="→ Book now"
-            eventName="Book_Clarity_Session"
+            href="mailto:hello@radicalsensitiveleadership.com"
+            label="→ Request via Email"
+            eventName="Request_Clarity_Session"
             className="underline text-base hover:opacity-70"
           />
         </div>
 
         <div>
           <h3 className="text-xl font-semibold mb-2">
-            Strategic Reset Package – 3×60 Min – €1,200 <span className="text-base font-normal">plus VAT</span>
+            Strategic Reset Package – 3×60 Min
           </h3>
           <ul className="list-disc ml-6 text-base mb-2">
             <li>Three coaching sessions</li>
             <li>Written reflection & leadership feedback</li>
-            <li>For transitions, team challenges or strategy shifts</li>
-          </ul>
-          <SubscribeButton
-            href="https://cal.com/radicalsensitiveleadership/reset-package"
-            label="→ Book package"
-            eventName="Book_Reset_Package"
-            className="underline text-base hover:opacity-70"
-          />
-        </div>
-
-        <div>
-          <h3 className="text-xl font-semibold mb-2">
-            Corporate Coaching Framework – from €6,000 <span className="text-base font-normal">excl. VAT</span>
-          </h3>
-          <ul className="list-disc ml-6 text-base mb-2">
-            <li>5–15 sessions per Key Leader</li>
-            <li>HR briefings, optional anonymized reporting</li>
-            <li>For sustainable leadership presence</li>
+            <li>For transitions, inner shifts or personal realignment</li>
           </ul>
           <SubscribeButton
             href="mailto:hello@radicalsensitiveleadership.com"
-            label="→ Contact me directly"
-            eventName="Contact_Corporate_Coaching"
+            label="→ Request via Email"
+            eventName="Request_Reset_Package"
             className="underline text-base hover:opacity-70"
           />
         </div>
@@ -107,19 +89,19 @@ export default function OfferPage() {
 
       <h2 className="text-2xl font-semibold mb-4">Why it matters</h2>
       <ul className="list-disc ml-6 text-base mb-8">
-        <li>Clarity in complex roles</li>
+        <li>Clarity in complex transitions</li>
         <li>Relief in emotional overload</li>
         <li>Strategic calm in decision-making</li>
-        <li>Retention of high performers through resonance</li>
-        <li>Authentic presence in uncertain times</li>
+        <li>Authentic presence in times of change</li>
+        <li>Integration of inner truth and outer role</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mb-4">Why me</h2>
       <ul className="list-disc ml-6 text-base mb-12">
-        <li>16 years leadership in Pharma/MedTech</li>
-        <li>Executive Coach with depth & business logic</li>
-        <li>Scientific background in Positive Psychology & Coaching</li>
-        <li>Fluent in market mechanics and human complexity</li>
+        <li>17+ years leadership experience</li>
+        <li>Executive Coach & Positive Psychologist</li>
+        <li>Scientific foundation & intuitive clarity</li>
+        <li>Digital product developer (Ikigai Strategist, Ikigami)</li>
         <li>Sessions in German or English, remote or in person</li>
       </ul>
 
