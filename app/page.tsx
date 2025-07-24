@@ -6,13 +6,6 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-between p-8 sm:p-20 font-cm">
       <main className="flex flex-col items-center text-center">
-        <p className="text-base sm:text-lg text-gray-600 mb-2">
-          Dr. Miriam von Felbert
-        </p>
-        <p className="text-base sm:text-lg text-gray-600 mb-6">
-          Healthcare Executive. Leadership Psychologist. Lecturer.
-        </p>
-
         <h1 className="text-3xl sm:text-4xl font-bold mb-2">
           Radical Sensitive Leadership
         </h1>
