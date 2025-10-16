@@ -23,7 +23,7 @@ export default function Home() {
 
         {/* --- Mailcoach Formular (minimal, robust) --- */}
         <form
-          action="https://radicalsensitiveleadership.mailcoach.app/subscribe/c54f3522-6f9e-433d-8620-f32739c49177"
+          action="https://radicalsensitiveleadership.mailcoach.app/subscribe/ed7af73e-6251-434c-816f-28012afe6452"
           method="POST"
           acceptCharset="UTF-8"
           className="flex flex-col sm:flex-row justify-center items-center gap-3 w-full"
