@@ -21,7 +21,7 @@ export default function Home() {
           Erscheinung: April&nbsp;2026
         </p>
 
-        {/* --- Mailcoach Formular --- */}
+        {/* --- Mailcoach Formular (minimal, robust) --- */}
         <form
           action="https://radicalsensitiveleadership.mailcoach.app/subscribe/c54f3522-6f9e-433d-8620-f32739c49177"
           method="POST"
@@ -38,15 +38,9 @@ export default function Home() {
             className="flex-1 w-full sm:w-auto rounded-full border border-black/20 px-5 py-3 text-center sm:text-left text-sm outline-none focus:ring-1 focus:ring-black"
           />
 
-          {/* Optional: Tagging */}
+          {/* Hidden Felder laut Mailcoach Spezifikation */}
           <input type="hidden" name="tags" value="waitlist-rsl" />
-
-          {/* Optional: Transaktionale Mail-Vorlage (UUID aus Mailcoach) */}
-          <input
-            type="hidden"
-            name="transactional_mail_template_uuid"
-            value="f138de24-dc12-4dc8-a110-407c46835e8d"
-          />
+          <input type="hidden" name="honeypot" value="" />
 
           {/* Submit Button */}
           <button
@@ -60,15 +54,19 @@ export default function Home() {
 
         {/* Hinweistext */}
         <p className="mt-4 text-xs text-neutral-500 max-w-sm leading-snug">
-          DSGVO-Hinweis: Double-Opt-In via Mailcoach. Keine Werbung, kein Spam. 
+          DSGVO-Hinweis: Double-Opt-In via Mailcoach. Keine Werbung, kein Spam.
           Abmeldung jederzeit möglich.
         </p>
       </main>
 
       {/* --- Footer --- */}
       <footer className="mt-20 mb-4 flex flex-wrap justify-center gap-6 text-xs text-neutral-600">
-        <a href="/legal" className="hover:underline">Impressum</a>
-        <a href="/privacy" className="hover:underline">Datenschutz</a>
+        <a href="/legal" className="hover:underline">
+          Impressum
+        </a>
+        <a href="/privacy" className="hover:underline">
+          Datenschutz
+        </a>
         <a
           href="https://www.linkedin.com/in/miriamvonfelbert/"
           target="_blank"
