@@ -6,10 +6,12 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-between px-8 py-16 sm:px-20 font-cm text-center text-black">
       <main className="flex flex-col items-center justify-center flex-1 w-full max-w-lg">
+        {/* --- Headline --- */}
         <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6">
           Radical Sensitive Leadership
         </h1>
 
+        {/* --- Subtext --- */}
         <p className="text-base sm:text-lg leading-relaxed mb-2">
           Selbstführung und Resonanz <br /> als Zukunftskompetenzen im&nbsp;KI-Zeitalter
         </p>
@@ -19,12 +21,15 @@ export default function Home() {
           Erscheinung: April&nbsp;2026
         </p>
 
+        {/* --- Mailcoach Formular --- */}
         <form
           action="https://radicalsensitiveleadership.mailcoach.app/subscribe/c54f3522-6f9e-433d-8620-f32739c49177"
-          method="post"
+          method="POST"
+          acceptCharset="UTF-8"
           className="flex flex-col sm:flex-row justify-center items-center gap-3 w-full"
           onSubmit={() => track('waitlist_submit')}
         >
+          {/* E-Mail Input */}
           <input
             type="email"
             name="email"
@@ -32,7 +37,18 @@ export default function Home() {
             placeholder="E-Mail-Adresse"
             className="flex-1 w-full sm:w-auto rounded-full border border-black/20 px-5 py-3 text-center sm:text-left text-sm outline-none focus:ring-1 focus:ring-black"
           />
+
+          {/* Optional: Tagging */}
           <input type="hidden" name="tags" value="waitlist-rsl" />
+
+          {/* Optional: Transaktionale Mail-Vorlage (UUID aus Mailcoach) */}
+          <input
+            type="hidden"
+            name="transactional_mail_template_uuid"
+            value="f138de24-dc12-4dc8-a110-407c46835e8d"
+          />
+
+          {/* Submit Button */}
           <button
             type="submit"
             onClick={() => track('click_waitlist')}
@@ -42,11 +58,14 @@ export default function Home() {
           </button>
         </form>
 
-        <p className="mt-4 text-xs text-neutral-500">
-          DSGVO-Hinweis: Double-Opt-In via Mailcoach. Kein Spam. Abmeldung jederzeit möglich.
+        {/* Hinweistext */}
+        <p className="mt-4 text-xs text-neutral-500 max-w-sm leading-snug">
+          DSGVO-Hinweis: Double-Opt-In via Mailcoach. Keine Werbung, kein Spam. 
+          Abmeldung jederzeit möglich.
         </p>
       </main>
 
+      {/* --- Footer --- */}
       <footer className="mt-20 mb-4 flex flex-wrap justify-center gap-6 text-xs text-neutral-600">
         <a href="/legal" className="hover:underline">Impressum</a>
         <a href="/privacy" className="hover:underline">Datenschutz</a>
