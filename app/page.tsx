@@ -11,7 +11,7 @@ export default function Home() {
         </h1>
 
         <p className="text-base sm:text-lg leading-relaxed mb-2">
-          Selbstführung und Resonanz als Zukunftskompetenzen im&nbsp;KI-Zeitalter
+          Selbstführung und Resonanz <br /> als Zukunftskompetenzen im&nbsp;KI-Zeitalter
         </p>
 
         <p className="text-sm text-neutral-500 mb-10">
