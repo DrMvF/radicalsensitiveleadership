@@ -11,12 +11,10 @@ export default function RSLWaitlist() {
           Radical Sensitive Leadership
         </h1>
 
-        {/* Subline – mobil zweizeilig, ab sm inline */}
+        {/* Subline – Zeilenumbruch fix vor 'als' */}
         <p className="text-xl sm:text-2xl leading-snug mb-3">
-          <span className="block sm:inline">Selbstführung und Resonanz</span>{' '}
-          <span className="block sm:inline">
-            als Zukunftskompetenzen im&nbsp;KI-Zeitalter
-          </span>
+          Selbstführung und Resonanz<br />
+          als Zukunftskompetenzen im&nbsp;KI-Zeitalter
         </p>
 
         {/* Meta */}
