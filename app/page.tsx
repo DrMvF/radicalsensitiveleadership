@@ -11,15 +11,18 @@ export default function RSLWaitlist() {
           Radical Sensitive Leadership
         </h1>
 
-        {/* Subline */}
+        {/* Subline – mobil zweizeilig, ab sm inline */}
         <p className="text-xl sm:text-2xl leading-snug mb-3">
-          Selbstführung und Resonanz<br className="hidden sm:block" />
-          als Zukunftskompetenzen im&nbsp;KI-Zeitalter
+          <span className="block sm:inline">Selbstführung und Resonanz</span>{' '}
+          <span className="block sm:inline">
+            als Zukunftskompetenzen im&nbsp;KI-Zeitalter
+          </span>
         </p>
 
         {/* Meta */}
         <p className="text-sm sm:text-base text-white/70 mb-12">
-          Ein Forschungs- und Buchprojekt von Dr.&nbsp;Miriam&nbsp;von&nbsp;Felbert · Erscheinung: April&nbsp;2026
+          Ein Forschungs- und Buchprojekt von Dr.&nbsp;Miriam&nbsp;von&nbsp;Felbert ·
+          Erscheinung: April&nbsp;2026
         </p>
 
         {/* Mailcoach Formular */}
@@ -30,7 +33,7 @@ export default function RSLWaitlist() {
           className="w-full flex flex-col sm:flex-row items-center justify-center gap-4 mb-5"
           noValidate
         >
-          {/* simple Honeypot */}
+          {/* Honeypot gegen Bots */}
           <div aria-hidden="true" className="hidden">
             <label>
               Nicht ausfüllen
@@ -56,20 +59,27 @@ export default function RSLWaitlist() {
             type="submit"
             onClick={() => track('click_waitlist')}
             className="rounded-full bg-white text-black px-8 py-4 text-base font-medium
-                       transition-colors hover:bg-neutral-200 active:scale-[.99] focus:outline-none focus:ring-2 focus:ring-white/80"
+                       transition-colors hover:bg-neutral-200 active:scale-[.99]
+                       focus:outline-none focus:ring-2 focus:ring-white/80"
           >
             Auf die Warteliste setzen
           </button>
         </form>
 
+        {/* DSGVO Hinweis */}
         <p className="text-xs text-white/60 leading-snug max-w-md mx-auto">
-          DSGVO-Hinweis: Double-Opt-In via Mailcoach. Keine Werbung, kein Spam. Abmeldung jederzeit möglich.
+          DSGVO-Hinweis: Double-Opt-In via Mailcoach. Keine Werbung, kein Spam.
+          Abmeldung jederzeit möglich.
         </p>
 
-        {/* Footer minimal */}
+        {/* Footer */}
         <footer className="mt-20 flex flex-wrap justify-center gap-8 text-xs text-white/60">
-          <a href="/legal" className="hover:text-white">Impressum</a>
-          <a href="/privacy" className="hover:text-white">Datenschutz</a>
+          <a href="/legal" className="hover:text-white">
+            Impressum
+          </a>
+          <a href="/privacy" className="hover:text-white">
+            Datenschutz
+          </a>
           <a
             href="https://www.linkedin.com/in/miriamvonfelbert/"
             target="_blank"
