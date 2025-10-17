@@ -22,7 +22,7 @@ export default function RSLWaitlist() {
 
         {/* --- Mailcoach Formular --- */}
         <form
-          action="https://radicalsensitiveleadership.mailcoach.app/subscribe/c54f3522-6f9e-433d-8620-f32739c49177"
+          action="https://radicalsensitiveleadership.mailcoach.app/subscribe/87d4338a-7de7-451d-b74d-70fcad793d37"
           method="post"
           onSubmit={() => track('waitlist_submit')}
           className="flex flex-col sm:flex-row justify-center items-center gap-3 w-full"
